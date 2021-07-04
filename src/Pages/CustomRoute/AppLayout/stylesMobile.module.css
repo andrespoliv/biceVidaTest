@@ -1,0 +1,14 @@
+.container{
+  width: 100%;
+}
+.topbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo{
+  width:20vw;
+  height: 5vh;
+  margin-right: 3vw;
+}

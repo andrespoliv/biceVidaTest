@@ -1,0 +1,79 @@
+.cardContainer{
+  width:30vw;
+  height:70vh;
+  border-radius: 10px;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+}
+
+.imageAndLabelContainer{
+  width:100%;
+  height:30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: 100% 30vh;
+  border-radius: 10px;
+
+}
+
+.labelContainer{
+  width:100%;
+  height: 8vh;
+  display: flex;
+  justify-content: left;
+}
+
+.label{
+  width: fit-content;
+  height: fit-content;
+  background-color:dodgerblue;
+  border-radius: 10px;
+  margin-left: 1vw;
+  padding: 0.5vw;
+  box-sizing: border-box;
+  color: white;
+}
+
+.dataContainer{
+  width:100%;
+  height: 60vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1vh;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.insuranceName{
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  font-weight: bold;
+}
+
+.insuranceDescription{
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  text-align: justify;
+  color: gray;
+}
+
+.insurancePrice{
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  text-align: justify;
+  color: black;
+  margin-top: 1vh;
+}
+
+
